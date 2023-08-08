@@ -26,9 +26,9 @@ The project has 2 main part :
 - Intel Developer Cloud
 - NVIDIA Jetson Nano
 
-The necassary installation steps for **Intel Developer Cloud** and creating a suitable Kernel to be able to use **Intel Optimized TensorFlow**, can be found in this [Github section.]()
+The necassary installation steps for **Intel Developer Cloud** and creating a suitable Kernel to be able to use **Intel Optimized TensorFlow**, can be found in this [Github section.](XXX)  
 You can simply run shell script files in that section and adjust everythings automatically. Alternatively, if you prefer, you can check the details about Intel DevCloud and apply the steps manually.
 
 </br>
 
-The information about **Jetson Nano**, its setup and **Docker Image** which contains necassary packages can be found in this [Github section.]()
+The information about **Jetson Nano**, its setup and **Docker Image** which contains necassary packages can be found in this [Github section.](XXX)
