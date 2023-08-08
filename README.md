@@ -34,7 +34,6 @@ The necassary installation steps for **Intel Developer Cloud** and creating a su
 
 You can simply run shell script files in that section and adjust everythings automatically. Alternatively, if you prefer, you can check [the details about Intel DevCloud](https://github.com/Gokhan-Kayhan/Image_Classification_on_Jetson_Nano/blob/main/sections/installation_intel.md#details-about-intel-devcloud) and apply the steps manually.
 
-</br>
 
 ## NVIDIA Jetson Nano
 The information about **Jetson Nano**, its setup and **Docker Image** which contains necassary packages can be found in the section [NVIDIA Jetson Nano.](sections/jetson_nano.md)
