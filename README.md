@@ -28,7 +28,7 @@ The project has 2 main part :
 
 The necassary installation steps for **Intel Developer Cloud** and creating a suitable Kernel to be able to use **Intel Optimized TensorFlow**, can be found in the section [Intel Developer Cloud.](sections/installation_intel.md) 
 
-You can simply run shell script files in that section and adjust everythings automatically. Alternatively, if you prefer, you can check [the details about Intel DevCloud]((https://github.com/Gokhan-Kayhan/Image_Classification_on_Jetson_Nano/blob/main/sections/installation_intel.md#details-about-intel-devcloud)) and apply the steps manually.
+You can simply run shell script files in that section and adjust everythings automatically. Alternatively, if you prefer, you can check [the details about Intel DevCloud](https://github.com/Gokhan-Kayhan/Image_Classification_on_Jetson_Nano/blob/main/sections/installation_intel.md#details-about-intel-devcloud) and apply the steps manually.
 
 </br>
 
