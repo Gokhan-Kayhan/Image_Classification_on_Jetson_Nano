@@ -56,4 +56,10 @@ Therefore second virtual environment is used only to convert TensorFlow model in
 
 # Details about Intel DevCloud 
 
-The details of _Shell Script_ files above(setting up a kernel from created virtual environment) can be found in the section [Setting up the Kernel](sections/kernel.md)
+Normally, after you run the shell script files, you can select the Kernel on the top menu of JupyterLab and you can run the codes cell by cell.
+
+But if you want to learn the details, you can check the following two sections : 
+
+* The details of _Shell Script_ files above(setting up a kernel from created virtual environment) can be found in the section [Setting up the Kernel](kernel.md)
+
+* The another method to run the codes(creating a job script, submit it queue, specify CPU node, GPU core etc.) and its details can be found in the section [Run the code and Job Script](job.md)
