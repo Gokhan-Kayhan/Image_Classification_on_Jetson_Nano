@@ -43,12 +43,17 @@ Run the Script
 We need to create 2 different virtual environments : 
 
 - training_env : Responsible for Model training with Intel Tensorflow Extension.
-- transform_onnx_env : Responsible for converting TensorFlow model into ONNX format.
+- transform2onnx_env : Responsible for converting TensorFlow model into ONNX format.
 
-Because, Intel Tensorflow Extension is only compatible with TensorFlow v2.13.0 according to its [documentation](https://github.com/intel/intel-extension-for-tensorflow/blob/main/docs/install/install_for_cpu.md#install-tensorflow)
+Because, Intel Tensorflow Extension is only compatible with TensorFlow v2.13.0 according to its [documentation.](https://github.com/intel/intel-extension-for-tensorflow/blob/main/docs/install/install_for_cpu.md#install-tensorflow)
 
 But the `tf2onnx` library which is used to convert saved TensorFlow model into ONNX format, does not work with this version. At the time I created this document, it was only working with TensorFlow v2.12.0
 
 Therefore second virtual environment is used only to convert TensorFlow model into ONNX format.
 
+---
+</br>
 
+# Details about Intel DevCloud 
+
+The details of _Shell Script_ files above(setting up a kernel from created virtual environment) can be found in the section [Setting up the Kernel](sections/kernel.md)
