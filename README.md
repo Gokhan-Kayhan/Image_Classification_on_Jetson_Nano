@@ -11,7 +11,7 @@ Firstly, custom **CNN Models** were used and then pretrained **MobileNet V2** wa
 
 </br>
 
-The [model_training.ipynb](XXX) notebook can be taken as pipeline and used in different platforms. But it was designed to train the models with [*Intel Extension for TensorFlow*](https://intel.github.io/intel-extension-for-tensorflow/latest/get_started.html) on **Intel Developer Cloud** to accelerate training.
+The [model_training.ipynb](XXX) notebook can be taken as pipeline and used in different platforms. But it was actually designed to train the models with [*Intel Extension for TensorFlow*](https://intel.github.io/intel-extension-for-tensorflow/latest/get_started.html) on **Intel Developer Cloud** to accelerate training.
 
 Later, the trained TensorFlow models are converted into **ONNX** and **TensorRT** formats and used in NVIDIA Jetson Nano to inference.
 
@@ -32,7 +32,7 @@ The project has 2 main part :
 ## Intel Developer Cloud
 The necassary installation steps for **Intel Developer Cloud** and creating a suitable Kernel to be able to use **Intel Optimized TensorFlow**, can be found in the section [Intel Developer Cloud.](sections/installation_intel.md) 
 
-You can simply run shell script files in that section and adjust everythings automatically. Alternatively, if you prefer, you can check [the details about Intel DevCloud](https://github.com/Gokhan-Kayhan/Image_Classification_on_Jetson_Nano/blob/main/sections/installation_intel.md#details-about-intel-devcloud) and apply the steps manually.
+You can simply run shell script file in that section and adjust everythings automatically. Alternatively, if you prefer, you can check [the details about Intel DevCloud](https://github.com/Gokhan-Kayhan/Image_Classification_on_Jetson_Nano/blob/main/sections/installation_intel.md#details-about-intel-devcloud) and apply the steps manually.
 
 
 ## NVIDIA Jetson Nano
