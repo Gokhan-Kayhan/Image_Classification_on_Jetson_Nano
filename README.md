@@ -36,4 +36,4 @@ You can simply run shell script file in that section and adjust everythings auto
 
 
 ## NVIDIA Jetson Nano
-The information about **Jetson Nano**, its setup and **Docker Image** which contains necassary packages can be found in the section [NVIDIA Jetson Nano.](sections/jetson_nano.md)
+The information about **Jetson Nano**, its setup and **[Docker Image](https://hub.docker.com/r/gokh44n/jetson-nano-project)** which contains necassary packages can be found in the section [NVIDIA Jetson Nano.](sections/jetson_nano.md)
