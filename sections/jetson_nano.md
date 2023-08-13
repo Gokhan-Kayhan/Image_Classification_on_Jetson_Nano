@@ -28,7 +28,14 @@ gokh44n/jetson-nano-project:v1
 
 When you type these commands completely, you will be asked your password. Then command line starts with "root" which means you are inside the container. Now you should switch to directory where your files located are. You can see the whole process on the above figure.
 
+</br>
+
+Now, you are ready to train the models and run them in Jetson Nano. You can proceed with the [Model Training](XXX) section.
+
 ---
+</br>
+
+# Details of NVIDIA Jetson Nano Setup
 
 Normally, everything is ready in this container to run the projects. But in this section, you can find the [Details of NVIDIA Jetson Nano Setup.](XXX) I have collected the errors and problems that I encountered during the whole process. Just to guide more easily and quickly to myself and other people in the future.
 
