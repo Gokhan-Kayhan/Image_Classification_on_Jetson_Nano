@@ -30,14 +30,14 @@ When you type these commands completely, you will be asked your password. Then c
 
 </br>
 
-Now, you are ready to train the models and run them in Jetson Nano. You can proceed with the [Model Training](XXX) section.
+Now, you are ready to train the models and run them in Jetson Nano. You can proceed with the [Model Training](model_training.md) section.
 
 ---
 </br>
 
 # Details of NVIDIA Jetson Nano Setup
 
-Normally, everything is ready in this container to run the projects. But in this section, you can find the [Details of NVIDIA Jetson Nano Setup.](XXX) I have collected the errors and problems that I encountered during the whole process. Just to guide more easily and quickly to myself and other people in the future.
+Normally, everything is ready in this container to run the projects. But in this section, you can find the [Details of NVIDIA Jetson Nano Setup.](details_nano_setup.md) I have collected the errors and problems that I encountered during the whole process. Just to guide more easily and quickly to myself and other people in the future.
 
 
 
