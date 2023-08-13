@@ -37,3 +37,33 @@ You can simply run shell script file in that section and adjust everythings auto
 
 ## NVIDIA Jetson Nano
 The information about **Jetson Nano**, its setup and **[Docker Image](https://hub.docker.com/r/gokh44n/jetson-nano-project)** which contains necassary packages can be found in the section [NVIDIA Jetson Nano.](sections/jetson_nano.md)
+
+---
+
+</br>
+
+# Model Training
+After completing the above installation steps, you can continue with Model Training. You can simply follow the [model_training.ipynb](XXX) notebook and run it cell by cell. It will read the images, applies some processings, creates the dataset, train the models and save them in TensorFlow SavedModel format.
+
+I started with simple CNN and obtaied _55.6%_ accuracy on test images, then I improved this network and obtained _62.7%_
+Later, I used MobileNet V2 with transfer learning and obtained _63.7%_ accuray. After the fine tuning, the accuracy of this model increased to _68.1%_
+
+The more details about model training and converting TensorFlow models into ONNX format can be found in the section [Model Training.](XXX)
+
+---
+
+</br>
+
+# Run the Models on NVIDIA Jetson Nano
+
+In Jetson Nano, you can convert **ONNX** models into **TensorRT** format and run both formats in Nano. I created another script file which handle the conversation process automatically. You can simply run it and test the Models in Nano by using [`run_onnx.py`](XXX) and [`run_tfrt.py`](XXX)
+
+You can find the details about TensorRT conversation and running the models in the section [Model Inference on Jetson Nano](XXX)
+
+---
+
+</br>
+
+# Youtube Video and NVIDIA Forum
+
+You can watch the [Youtube video]() of the project and check the [NVIDIA Forum Post.]()
