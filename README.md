@@ -11,7 +11,7 @@ Firstly, custom **CNN Models** were used and then pretrained **MobileNet V2** wa
 
 </br>
 
-The [model_training.ipynb](XXX) notebook can be taken as pipeline and used in different platforms. But it was actually designed to train the models with [*Intel Extension for TensorFlow*](https://intel.github.io/intel-extension-for-tensorflow/latest/get_started.html) on **Intel Developer Cloud** to accelerate training.
+The [model_training.ipynb](model_training.ipynb) notebook can be taken as pipeline and used in different platforms. But it was actually designed to train the models with [*Intel Extension for TensorFlow*](https://intel.github.io/intel-extension-for-tensorflow/latest/get_started.html) on **Intel Developer Cloud** to accelerate training.
 
 Later, the trained TensorFlow models are converted into **ONNX** and **TensorRT** formats and used in NVIDIA Jetson Nano to inference.
 
@@ -43,12 +43,12 @@ The information about **Jetson Nano**, its setup and **[Docker Image](https://hu
 </br>
 
 # Model Training
-After completing the above installation steps, you can continue with Model Training. You can simply follow the [model_training.ipynb](XXX) notebook and run it cell by cell. It will read the images, applies some processings, creates the dataset, train the models and save them in TensorFlow SavedModel format.
+After completing the above installation steps, you can continue with Model Training. You can simply follow the [model_training.ipynb](model_training.ipynb) notebook and run it cell by cell. It will read the images, applies some processings, creates the dataset, train the models and save them in TensorFlow SavedModel format.
 
 I started with simple CNN and obtaied _55.6%_ accuracy on test images, then I improved this network and obtained _62.7%_
 Later, I used MobileNet V2 with transfer learning and obtained _63.7%_ accuray. After the fine tuning, the accuracy of this model increased to _68.1%_
 
-The more details about model training and converting TensorFlow models into ONNX format can be found in the section [Model Training.](XXX)
+The more details about model training and converting TensorFlow models into ONNX format can be found in the section [Model Training.](section/model_training.md)
 
 ---
 
@@ -56,9 +56,9 @@ The more details about model training and converting TensorFlow models into ONNX
 
 # Run the Models on NVIDIA Jetson Nano
 
-In Jetson Nano, you can convert **ONNX** models into **TensorRT** format and run both formats in Nano. I created another script file which handle the conversation process automatically. You can simply run it and test the Models in Nano by using [`run_onnx.py`](XXX) and [`run_tfrt.py`](XXX)
+In Jetson Nano, you can convert **ONNX** models into **TensorRT** format and run both formats in Nano. I created another script file which handle the conversation process automatically. You can simply run it and test the Models in Nano by using [`run_onnx.py`](run_onnx.py) and [`run_tfrt.py`](run_tfrt.py)
 
-You can find the details about TensorRT conversation and running the models in the section [Model Inference on Jetson Nano](XXX)
+You can find the details about TensorRT conversation and running the models in the section [Model Inference on Jetson Nano](sections/model_inference_on_nano.md)
 
 ---
 
