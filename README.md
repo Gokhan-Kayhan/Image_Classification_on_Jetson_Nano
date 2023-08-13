@@ -66,4 +66,4 @@ You can find the details about TensorRT conversation and running the models in t
 
 # Youtube Video and NVIDIA Forum
 
-You can watch the [Youtube video]() of the project and check the [NVIDIA Forum Post.]()
+You can watch the [Youtube video](https://youtu.be/qnGjDEGOqHQ) of the project and check the [NVIDIA Forum Post.]()
