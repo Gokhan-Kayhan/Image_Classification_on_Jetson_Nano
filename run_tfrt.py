@@ -8,7 +8,6 @@ import warnings
 import numpy as np
 import tensorrt as trt
 warnings.filterwarnings("ignore")
-from onnx_helper import ONNXClassifierWrapper
 # endregion
 #--------------------------------------------------
 
