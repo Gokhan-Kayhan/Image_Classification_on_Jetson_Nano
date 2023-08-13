@@ -52,7 +52,7 @@ Details about 2 Script Files :
 
 *But the `tf2onnx` library which is used to convert saved TensorFlow model into ONNX format, does not work with this version. At the time I created this document, it was only working with TensorFlow v2.12.0*
 
-*Therefore "convert_to_onnx" shell file uses v2.12.0 TensorFlow. The more detail about this script can be found in [Model Training part.](sections/model_training.md) )*
+*Therefore "convert_to_onnx" shell file uses v2.12.0 TensorFlow. The more detail about this script can be found in [Model Training part.](model_training.md) )*
 
 ---
 </br>
