@@ -66,4 +66,4 @@ You should run the script, **BUT Do Not Forget** to write your **User ID**(start
 <img src="figures/convert_to_onnx.png"  width="75%" height="75%" >
 </p>
 
-This will take some time and then you can see the ONNX models under the folder "onnx_models". Now you can continue with [Model Inference on Jetson Nano](XXX) and run the models.
+This will take some time and then you can see the ONNX models under the folder "onnx_models". Now you can continue with [Model Inference on Jetson Nano](model_inference_on_nano.md) and run the models.
