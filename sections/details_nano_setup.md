@@ -29,9 +29,16 @@ In this section, I have collected the errors and problems that I encountered dur
 
 ### TensorRT
 
-- To be able to use TensorRT which is preinstalled in Jetpack, we should make the setup with SDK Manager. The [forum post about this](TensorRThttps://forums.developer.nvidia.com/t/jetson-nano-tensorrt-python-import-error/107831/4)
+- To be able to use TensorRT which is preinstalled in Jetpack, we should make the setup with SDK Manager. The [forum post about this.](TensorRThttps://forums.developer.nvidia.com/t/jetson-nano-tensorrt-python-import-error/107831/4)
 
-- In the Youtube videos [Video1](https://www.youtube.com/watch?v=Ucg5Zqm9ZMk&t=2s&ab_channel=JetsonHacks) and [Video2](https://www.youtube.com/watch?v=D0v1q-HUM4o&list=PLWw98q-Xe7iF6gMaE7Yv8ATbe0z78O9yG&index=4) you can find more details about NVIDIA SDK Manager.
+  You need to have Ubuntu _( [more details](https://developer.nvidia.com/sdk-manager) )_ in local machine to use SDK Manager and then you can install the packages to Jetson. Therefore I installed VirtualBox in my computer and install Ubuntu in here. VirtualBox is open source free software to install another operating system in your computer. You can watch this [Youtube video](https://www.youtube.com/watch?v=sB_5fqiysi4&ab_channel=BrettInTech) for its setup.
+
+  I connect my computer and Jetson Nano to my router with Ethernet cable. If you have Data Cable, you can connect Jetson Nano to your computer with USB. In the Youtube videos [Video1](https://www.youtube.com/watch?v=Ucg5Zqm9ZMk&t=2s&ab_channel=JetsonHacks) and [Video2](https://www.youtube.com/watch?v=D0v1q-HUM4o&list=PLWw98q-Xe7iF6gMaE7Yv8ATbe0z78O9yG&index=4) you can find more details about NVIDIA SDK Manager.
+  
+
+<p align="center">
+<img src="figures/sdk.PNG"  width="55%" height="55%" >
+</p>
 
 - To convert ONNX model into TensorRT models, we need `trtexec`. But it in a folder, thus it gives error, when we used in the terminal. [The solution is in here.](https://forums.developer.nvidia.com/t/bash-trtexec-command-not-found/127302/6)
 
