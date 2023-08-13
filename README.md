@@ -48,7 +48,7 @@ After completing the above installation steps, you can continue with Model Train
 I started with simple CNN and obtaied _55.6%_ accuracy on test images, then I improved this network and obtained _62.7%_
 Later, I used MobileNet V2 with transfer learning and obtained _63.7%_ accuray. After the fine tuning, the accuracy of this model increased to _68.1%_
 
-The more details about model training and converting TensorFlow models into ONNX format can be found in the section [Model Training.](section/model_training.md)
+The more details about model training and converting TensorFlow models into ONNX format can be found in the section [Model Training.](sections/model_training.md)
 
 ---
 
