@@ -24,7 +24,7 @@ I will continue with JupyterLab since it is easier to visualize.
 I created 2 shell script files which adjust everythings automatically(installing the packages, creating the kernel and etc.) Firstly, you can create a folder and put all necassary files as in the figure below and you can run the `.sh`files in terminal like this : _(Do not forget to change the directory where the script is located)_
 
 <p align="center">
-<img src="figures/sh file.png" width="75%" height="75%">
+<img src="figures/sh_file.png" width="75%" height="75%">
 </p>
 
 Make the Script Executable
