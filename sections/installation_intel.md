@@ -6,7 +6,10 @@ Since I don't have suitable Intel Hardware, I have made all the test on Intel De
 After registration, we should connect to DevCloud. There are two ways :  
 1 - There is a part **"Connect with JupyterLab\"** at the end of this [website](https://devcloud.intel.com/oneapi/get_started/). By simply clicking _"Launch JupyterLab"_, we can connect to Intel DevCloud.
 
+</br>
+
 2 - From Terminal via **SSH**
+
 As seen in the below picture, we should choose our operating system and download private SSH key file. For the sake of simplicity, I suggest to follow instructions in _"Automated Configuration"_ section.
 
 <p align="center">
@@ -40,16 +43,16 @@ Run the Script
 </br>
 </br>
 
-We need to create 2 different virtual environments : 
+Details about 2 Script Files : 
 
 - training_env : Responsible for Model training with Intel Tensorflow Extension.
-- transform2onnx_env : Responsible for converting TensorFlow model into ONNX format.
+- convert_to_onnx : Responsible for converting TensorFlow models into ONNX format.
 
-Because, Intel Tensorflow Extension is only compatible with TensorFlow v2.13.0 according to its [documentation.](https://github.com/intel/intel-extension-for-tensorflow/blob/main/docs/install/install_for_cpu.md#install-tensorflow)
+*( Note : Intel Tensorflow Extension is only compatible with TensorFlow v2.13.0 according to its [documentation.](https://github.com/intel/intel-extension-for-tensorflow/blob/main/docs/install/install_for_cpu.md#install-tensorflow)*
 
-But the `tf2onnx` library which is used to convert saved TensorFlow model into ONNX format, does not work with this version. At the time I created this document, it was only working with TensorFlow v2.12.0
+*But the `tf2onnx` library which is used to convert saved TensorFlow model into ONNX format, does not work with this version. At the time I created this document, it was only working with TensorFlow v2.12.0*
 
-Therefore second virtual environment is used only to convert TensorFlow model into ONNX format.
+*Therefore "convert_to_onnx" shell file uses v2.12.0 TensorFlow. The more detail about this script can be found in [Model Training part.](XXX) )*
 
 ---
 </br>
