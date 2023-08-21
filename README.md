@@ -1,5 +1,11 @@
 # Image Classification on Jetson Nano
 
+I created this project for the **"NVIDIA Jetson AI Specialist Certificate".** My project was reviewed and passed the [criteria](https://developer.nvidia.com/embedded/learn/jetson-ai-certification-programs#course_outline)(AI, Impact / Originality, Reproducibility, Presentation and Documentation). Finally, I received my certificate : 
+
+<p align="center">
+<img src="sections/figures/certificate.png"  width="75%" height="75%" >
+</p>
+
 
 # Introduction
 
